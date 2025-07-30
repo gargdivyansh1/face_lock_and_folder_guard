@@ -5,6 +5,8 @@ import ctypes
 import cv2
 from face_verification.verify_face import verify_face
 
+# for showing the working of the model .. 
+# we could also select multiple paths and could implement a frontend which could give us the choice for selecting the paths of the folders and files 
 GUARDED_FOLDER = r'C:\Users\divya\SecretFiles'
 CHECK_INTERVAL = 0.2 
 
